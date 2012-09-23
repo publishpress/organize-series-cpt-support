@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Organize Series CPT Support\n"
+"POT-Creation-Date: 2012-09-23 19:11-0500\n"
+"PO-Revision-Date: 2012-09-23 19:11-0500\n"
+"Last-Translator: Darren Ethier <darren@roughsmootheng.in>\n"
+"Language-Team: OrganizeSeries.com <darren@organizeseries.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: __;_e;_x;__ngettext:1,2\n"
+"X-Poedit-Basepath: /Users/drenobi/Documents/Dropbox/WebProjects/htdocs/"
+"orgseries-testing/wp-content/plugins/organize-series-cpt-support\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Users/drenobi/Documents/Dropbox/WebProjects/htdocs/"
+"orgseries-testing/wp-content/plugins/organize-series-cpt-support\n"
+
+#: /Users/drenobi/Documents/Dropbox/WebProjects/htdocs/orgseries-testing/wp-content/plugins/organize-series-cpt-support/class/OS_CPT_Support.class.php:66
+msgid ""
+"The <strong>Organize Series Custom Post Type Support</strong> addon for "
+"Organize Series requires the Organize Series plugin to be installed and "
+"activated in order to work.  Addons won't activate until this condition is "
+"met."
+msgstr ""
+
+#: /Users/drenobi/Documents/Dropbox/WebProjects/htdocs/orgseries-testing/wp-content/plugins/organize-series-cpt-support/class/OS_CPT_Support.class.php:188
+msgid "Custom Post Type Support:"
+msgstr ""
+
+#: /Users/drenobi/Documents/Dropbox/WebProjects/htdocs/orgseries-testing/wp-content/plugins/organize-series-cpt-support/class/OS_CPT_Support.class.php:189
+msgid ""
+"Select which WordPress Post Types you would like Organize Series to work "
+"with.  Whenever you add a new post type then you need to make sure it's "
+"selected here"
+msgstr ""
