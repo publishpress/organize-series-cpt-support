@@ -52,6 +52,6 @@ if ( file_exists(WP_PLUGIN_DIR . '/organize-series/inc/pue-client.php') ) {
 }
 
 //get files we need.
-require_once(OS_CPT_PATH . '/class/OS_CPT_Support.class.php');
+require_once(OS_CPT_PATH . 'class/OS_CPT_Support.class.php');
 //load the addon
 $os_cpt_support = new OS_CPT_Support();
