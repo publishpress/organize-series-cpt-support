@@ -25,7 +25,7 @@ $os_cpt_ver = '0.1';
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
-//It goes without saying that this is a plugin for WordPress and I have no interest in developing it for other platforms so please, don't ask ;).
+//It goes without saying that this is a plugin for WordPress and I have no interest in developing it for other platforms so please, don't ask!
 
 $os_cpt_path = WP_PLUGIN_DIR.'/organize-series-cpt-support/';
 $os_cpt_url = WP_PLUGIN_URL.'/organize-series-cpt-support/';
