@@ -9,6 +9,7 @@ Author URI: http://www.unfoldingneurons.com
 */
 
 $os_cpt_ver = '0.1';
+require __DIR__ . '/vendor/autoload.php';
 
 /* LICENSE */
 //"Organize Series Plugin" and all addons for it created by this author are copyright (c) 2007-2012 Darren Ethier. This program is free software; you can redistribute it and/or
@@ -35,23 +36,13 @@ define('OS_CPT_PATH', $os_cpt_path);
 define('OS_CPT_URL', $os_cpt_url);
 define('OS_CPT_VER', $os_cpt_ver);
 
-//Automatic Upgrades stuff
-if ( file_exists(WP_PLUGIN_DIR . '/organize-series/inc/pue-client.php') ) {
-	//let's get the client api key for updates
-	$series_settings = get_option('org_series_options');
-	$api_key = $series_settings['orgseries_api'];
-	$host_server_url = 'http://organizeseries.com';
-	$plugin_slug = 'organize-series-cpt-support';
-	$options = array(
-		'apikey' => $api_key,
-		'lang_domain' => 'organize-series'
-	);
-	
-	require( WP_PLUGIN_DIR . '/organize-series/inc/pue-client.php' );
-	$check_for_updates = new PluginUpdateEngineChecker($host_server_url, $plugin_slug, $options);
-}
+/**
+ * This takes allows OS core to take care of the PHP version check
+ * and also ensures we're only using the new style of bootstrapping if the verison of OS core with it is active.
+ */
+add_action('AHOS__bootstrapped', function() use ($os_cpt_path){
+    require $os_cpt_path . 'bootstrap.php';
+});
 
-//get files we need.
-require_once(OS_CPT_PATH . 'class/OS_CPT_Support.class.php');
-//load the addon
-$os_cpt_support = new OS_CPT_Support();
+//fallback on loading legacy-includes.php in case the bootstrapped stuff isn't ready yet.
+require_once OS_CPT_PATH . 'legacy-includes.php';
