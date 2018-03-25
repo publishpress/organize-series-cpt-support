@@ -1,5 +1,5 @@
 {
-  "versionFile":"organize-series-cpt.php",
+  "versionFile":"os-cpt-setup.php",
   "slug":"organize-series-cpt",
   "textDomain": "organize-series-cpt",
   "name": "Organize Series Custom Post Type Support",
