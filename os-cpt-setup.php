@@ -2,13 +2,13 @@
 /*
 Plugin Name: Organize Series Addon: Custom Post Type Support
 Plugin URI: http://organizeseries.com
-Version: 0.1
+Version: 0.2.0.rc.000
 Description: This plugin is an addon for the Organize Series plugin that gives custom post type support so you can use Organize Series with other WordPress post types.  After activating, visit the <a href="/wp-admin/options-general.php?page=orgseries_options_page" title="Series Options Page Link">Series Options Page</a> to select which custom post types you'd like series activated for.
 Author: Darren Ethier
 Author URI: http://www.unfoldingneurons.com
 */
 
-$os_cpt_ver = '0.1';
+$os_cpt_ver = '0.2.rc.000';
 require __DIR__ . '/vendor/autoload.php';
 
 /* LICENSE */
