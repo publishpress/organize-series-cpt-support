@@ -1,18 +1,1 @@
-{
-  "versionFile":"os-cpt-setup.php",
-  "slug":"organize-series-cpt",
-  "textDomain": "organize-series-cpt",
-  "name": "Organize Series Custom Post Type Support",
-  "releaseFilesRemove": [
-    "src/tests/**",
-    "src/acceptance_tests/**",
-    "src/docs/**",
-    "src/info.json",
-    "src/readme.txt",
-    "src/wp-assets/**",
-    "src/.travis.yml",
-    "src/ISSUE_TEMPLATE.md",
-    "src/PULL_REQUEST_TEMPLATE.md",
-    "src/assets/src/**"
-  ]
-}
+{"versionFile":"os-cpt-setup.php","slug":"organize-series-cpt","textDomain":"organize-series-cpt","name":"Organize Series Custom Post Type Support","releaseFilesRemove":["src\/tests\/**","src\/acceptance_tests\/**","src\/docs\/**","src\/info.json","src\/readme.txt","src\/wp-assets\/**","src\/.travis.yml","src\/ISSUE_TEMPLATE.md","src\/PULL_REQUEST_TEMPLATE.md","src\/assets\/src\/**"],"wpOrgRelease":"0.2.0"}
