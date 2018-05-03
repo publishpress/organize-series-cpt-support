@@ -159,7 +159,9 @@ class OS_CPT_Support {
 	 */
 	public function add_post_type_support($post_types) {
 		global $orgseries;
-		$post_types = $orgseries->settings['post_types_for_series'];
+		$post_types = isset($orgseries->settings['post_types_for_series'])
+            ? $orgseries->settings['post_types_for_series']
+            : array();
 		return $post_types;
 	}
 
