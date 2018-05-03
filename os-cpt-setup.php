@@ -28,8 +28,8 @@ require __DIR__ . '/vendor/autoload.php';
 //
 //It goes without saying that this is a plugin for WordPress and I have no interest in developing it for other platforms so please, don't ask!
 
-$os_cpt_path = WP_PLUGIN_DIR.'/organize-series-cpt-support/';
-$os_cpt_url = WP_PLUGIN_URL.'/organize-series-cpt-support/';
+$os_cpt_path = plugin_dir_path(__FILE__);
+$os_cpt_url = plugin_dir_url(__FILE__);
 
 //let's define some constants
 define('OS_CPT_PATH', $os_cpt_path);
